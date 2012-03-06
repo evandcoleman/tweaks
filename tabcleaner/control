@@ -1,0 +1,10 @@
+Package: net.evancoleman.tabcleaner
+Name: Tab Cleaner
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Easily close all tabs in Safari
+Maintainer: Evan Coleman
+Author: Evan Coleman
+Section: Tweaks
+dev: edc1591

@@ -1,0 +1,10 @@
+Package: net.evancoleman.nolockscreencamera
+Name: No Lockscreen Camera
+Depends: mobilesubstrate, firmware (>= 5.0)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Removes the lock screen camera button in iOS 5
+Maintainer: Evan Coleman
+Author: Evan Coleman
+Section: Tweaks
+dev: edc1591

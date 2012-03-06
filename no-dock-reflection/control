@@ -1,0 +1,10 @@
+Package: net.evancoleman.nodockreflection
+Name: No Dock Reflection
+Depends: mobilesubstrate, firmware (>= 4.0)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Remove Dock Icon Reflections in iOS4 and later
+Maintainer: Evan Coleman
+Author: Evan Coleman
+Section: Tweaks
+dev: edc1591

@@ -1,0 +1,10 @@
+Package: net.evancoleman.nosettingsbadge
+Name: No Settings Badge
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Removes the software update badge from the Settings app
+Maintainer: Evan Coleman
+Author: Evan Coleman
+Section: Tweaks
+dev: edc1591
