@@ -6,4 +6,8 @@
 	return NO;
 }
 
+- (BOOL)canShowLockScreenCameraKnob {
+	return NO;
+}
+
 %end

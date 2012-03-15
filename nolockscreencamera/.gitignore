@@ -1,0 +1,6 @@
+.DS_Store
+theos
+.theos
+_
+obj
+*.dev
