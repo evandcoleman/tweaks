@@ -1,4 +1,5 @@
 include theos/makefiles/common.mk
+export ARCHS = armv7
 
 TWEAK_NAME = NoLockscreenCamera
 NoLockscreenCamera_FILES = Tweak.xm

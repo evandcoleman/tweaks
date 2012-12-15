@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Speed for Maps</string>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>Speed for Maps</string>
+		<key>icon</key>
+		<string>SpeedForMaps.png</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>net.evancoleman.tweaksformaps</string>
+			<key>key</key>
+			<string>speedEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>PostNotification</key>
+			<string>net.evancoleman.speedformaps.prefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>SpeedUnits</string>
+			<key>label</key>
+			<string>Units</string>
+			<key>validTitles</key>
+			<array>
+				<string>Miles Per Hour (mph)</string>
+				<string>Feet Per Second (ft/s)</string>
+				<string>Kilometers Per Hour (km/h)</string>
+				<string>Meters Per Second (m/s)</string>
+				<string>Knots (kts)</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>defaults</key>
+			<string>net.evancoleman.tweaksformaps</string>
+			<key>PostNotification</key>
+			<string>net.evancoleman.speedformaps.prefs</string>
+		</dict> 
+		<dict>
+            		<key>cell</key>
+            		<string>PSGroupCell</string>
+            		<key>label</key>
+            		<string>Speedometer Transparency %</string>
+        	</dict>
+		<dict>
+            		<key>cell</key>
+            		<string>PSSliderCell</string>
+            		<key>default</key>
+            		<real>1.0</real>
+            		<key>min</key>
+            		<real>0.0</real>
+            		<key>max</key>
+            		<real>1.0</real>
+            		<key>showValue</key>
+            		<true/>
+            		<key>key</key>
+            		<string>speedAlpha</string>
+            		<key>defaults</key>
+            		<string>net.evancoleman.tweaksformaps</string>
+            		<key>PostNotification</key>
+            		<string>net.evancoleman.speedformaps.prefs</string>
+        	</dict>
+		<dict>
+	      		<key>cell</key>
+	      		<string>PSGroupCell</string>
+	      		<key>footerText</key>
+	      		<string>Check out Dashboard for Maps on Cydia for more features and customization!</string>
+        	</dict>
+		<dict>
+	      		<key>cell</key>
+	      		<string>PSGroupCell</string>
+	      		<key>footerText</key>
+	      		<string>Speed for Maps is © 2011 Evan Coleman.</string>
+        	</dict>
+    </array>
+</dict>
+</plist>

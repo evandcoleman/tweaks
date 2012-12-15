@@ -1,4 +1,4 @@
-#import <SpringBoard/SpringBoard.h>
+
 
 %hook SpringBoard
 
@@ -7,6 +7,10 @@
 }
 
 - (BOOL)canShowLockScreenCameraKnob {
+	return NO;
+}
+
+- (BOOL)canShowLockScreenCameraGrabber {
 	return NO;
 }
 
